@@ -1,5 +1,6 @@
 <template>
 	<v-app>
+		<h1>Hello</h1>
 		<v-navigation-drawer
 			v-if="isLoggedIn()"
 			v-model="drawer"
